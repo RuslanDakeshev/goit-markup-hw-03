@@ -4,6 +4,24 @@
     --accent-color-gray:#757575;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img{
+    display: block;
+}
+
+*{
+    outline: 1px solid;color: tomato;
+}
 
 
 
@@ -29,19 +47,34 @@ body{
     line-height: 1.2;
    letter-spacing: 0.03em;
    color: #000;
+  
+   margin-left: 215px;
+   margin-top: 24px;
+   margin-right: 93px;
+   margin-bottom: 25px;
 }
 
 .web{
     color:var(--accent-color);
 }
 
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+   
+}
+
 .menu-link{
-    
-    
     
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-right: 50px;
+    margin-bottom: 32px;
+    
     
     color: var(--accent-color-black);
 }
