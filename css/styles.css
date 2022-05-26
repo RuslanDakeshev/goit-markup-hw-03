@@ -40,6 +40,45 @@ body{
 
 }
 
+.container{
+    display: flex;
+    /*flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap:wrap;
+    align-content: stretch;*/
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    
+}
+
+.contact-list{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    background-color: coral;
+}
+
+/*.menu-contact{
+    display:inline-block;
+    margin-top: 32px;
+    
+    background-color: brown;
+    */
+}
+
+
+
+.page-header{
+    background-color: tomato;
+    
+}
+
+
 .logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -48,20 +87,29 @@ body{
    letter-spacing: 0.03em;
    color: #000;
   
+   display: flex;
    margin-left: 215px;
    margin-top: 24px;
-   margin-right: 93px;
-   margin-bottom: 25px;
+   
+   
 }
 
 .web{
     color:var(--accent-color);
 }
 
+.navigation{
+    display: flex;
+    align-items: stretch;
+}
+
 .menu{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+   align-content: center;
+   background-color: aqua;
+   margin-left: 93px;
+   margin-right: auto;
+   
     
    
 }
@@ -71,9 +119,12 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    display: inline-block;
     margin-top: 32px;
     margin-right: 50px;
     margin-bottom: 32px;
+    
     
     
     color: var(--accent-color-black);
@@ -116,6 +167,13 @@ body{
 
 /*hero*/
 
+.container-hero{
+    display: flex;
+    flex-direction: row ;
+    width: 1170px;
+    background-color: cyan;
+}
+
 .hero{
     text-transform: uppercase;
     background-color: #2F303A;
@@ -132,7 +190,9 @@ body{
 }
 
 .modal-btn{
-    
+    min-width: 136px;
+    padding: 32px 10px;
+    border-radius:4px;
    
     font-weight: 700;
     font-size: 16px;
