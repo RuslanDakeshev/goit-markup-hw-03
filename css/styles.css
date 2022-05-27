@@ -87,6 +87,8 @@ body{
 
 
 .page-header{
+    padding-top: 24px;
+    padding-bottom: 25px;
     background-color: tomato;
     
 }
@@ -191,12 +193,7 @@ body{
 
 /*hero*/
 
-.container-hero{
-    display: flex;
-    flex-direction: row ;
-    width: 1170px;
-    background-color: cyan;
-}
+
 
 .hero{
     text-transform: uppercase;
@@ -204,14 +201,18 @@ body{
 }
 
 .hero-text{
-    
-   
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    padding-left: 452px;
+    padding-top: 200px;
+    padding-right: 452px;
+    padding-bottom:  280px;
+    
 }
+
 
 .modal-btn{
     min-width: 136px;
@@ -225,6 +226,11 @@ body{
     cursor: pointer;
     color: #FFFFFF;
     background: var(--accent-color);
+    margin-left: 732px;
+    margin-top: 30px;
+    margin-left: 700px;
+    margin-bottom: 200px;
+    
 }
 .modal-btn:hover,
 .modal-btn:focus{
@@ -233,6 +239,12 @@ body{
 }
 
 /*benefits*/
+
+.benefits{
+    background-color: #E5E5E5;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .suptitle-benefits{
     
