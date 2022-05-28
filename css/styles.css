@@ -178,7 +178,7 @@ body{
 .hero{
     text-transform: uppercase;
     background-color: #2F303A;
-    text-align: center;
+    margin: 0 auto;
     
     
 }
@@ -189,11 +189,8 @@ body{
     line-height: 1.36;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    padding-left: 452px;
-    padding-top: 200px;
-    padding-right: 452px;
-    padding-bottom:  280px;
-    margin-bottom: 30px;
+    text-align: center;
+    
     
 }
 
@@ -210,10 +207,8 @@ body{
     cursor: pointer;
     color: #FFFFFF;
     background: var(--accent-color);
-    margin-left: 700px;
-    margin-top: 350px;
-    margin-right: 700px;
-    margin-bottom: 200px;
+    
+    
     
     
     
@@ -307,15 +302,19 @@ body{
 
 .our-work-img:nth-child(3n) {
     margin-right: 0;
-
+}
 
 /*our-team*/
 
 
-
+.our-team-sections{
+    background-color: #2196F3;
+    
+}
 
 .our-team-list{
     background-color: aqua;
+    display: flex;
 }
 
 .our-team-element{
@@ -362,8 +361,11 @@ body{
 footer{
     background-color: #2F303A;
 }
+
+
 .web-footer{
     color: var(--accent-color);
+   
 }
 
 .studio{
