@@ -249,7 +249,9 @@ body{
 /*our-work*/
 
 .our-work-section{
-    margin-bottom: 94px;
+    
+    background: #E5E5E5;
+    
 }
 
 .our-work{
@@ -263,6 +265,7 @@ body{
     letter-spacing: 0.03em;
     
     color: var(--accent-color-black);
+    
 }
 
 .our-work-list{
