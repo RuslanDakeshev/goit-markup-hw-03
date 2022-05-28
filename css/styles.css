@@ -57,38 +57,9 @@ body{
     
 }
 
-/*.container{
-    display: flex;
-    /*flex-direction: row;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-wrap:wrap;
-    align-content: stretch;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1600px; } */
 
-.menu-contact{
-    /*display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-content: flex-end;
-    align-items: center;*/
-    
-    /*background-color: coral;
-    display: inline;
-   align-content: flex-end;*/
-}
 
-/*.menu-contact{
-    display:inline-block;
-    margin-top: 32px;
-    
-    background-color: brown;
-    */
-}
+
 
 
 
@@ -166,7 +137,7 @@ body{
 }
 
 
-}
+
 .phone-number{
     
     
@@ -338,11 +309,13 @@ body{
     margin-right: 0;
 
 
-
 /*our-team*/
 
-.our-team-section{
-    background: #F5F4FA;
+
+
+
+.our-team-list{
+    background-color: aqua;
 }
 
 .our-team-element{
@@ -350,6 +323,8 @@ body{
 }
 
 .our-team{
+
+    margin-top: 188px;
     
     
     font-weight: 700;
