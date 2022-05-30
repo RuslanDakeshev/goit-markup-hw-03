@@ -20,7 +20,7 @@ img{
     
 }
 
-/**{
+/*{
     outline: 1px solid;color: tomato;
 }*/
 
@@ -48,6 +48,19 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .section{
@@ -302,11 +315,7 @@ body{
     
 }
 
-.our-team-prof{
-    margin-top: 10px;
-    
 
-}
 
 .our-team-element{
     background: #FFFFFF;
@@ -353,6 +362,7 @@ body{
     letter-spacing: 0.03em;
     
     color:var(--accent-color-gray);
+    margin-top: 10px;
 }
 
 /*futter*/
@@ -444,6 +454,7 @@ body{
 .button-list{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
     
 }
 
@@ -536,9 +547,9 @@ body{
 
 .projects-card{
     padding-left: 24px;
-    padding-top: 54px ;
+    padding-top: 20px ;
     padding-right: 24px;
-    padding-bottom: 54px;
+    padding-bottom: 20px;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
